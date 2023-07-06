@@ -1,0 +1,47 @@
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+body{
+    background-color: gray;
+}
+input {
+    padding:10px;
+    border-radius:10px;
+    border: 0;
+    width: 160px;
+}
+input::placeholder {
+    color: #212529;
+    opacity: 0.4;
+}
+h1{
+    color: white;
+}
+.name{
+    margin: 1px;
+}
+.email{
+    margin: 1px;
+}
+.login{
+    margin: 1px;
+}
+.password{
+    margin: 1px;
+}
+.repeat{
+    margin: 1px;
+}
+button{
+    padding:10px;
+    margin: 20px;
+    border-radius:10px;
+    border: 0;
+    width: 180px;
+    color: #212529;
+    opacity: 0.8;
+}
